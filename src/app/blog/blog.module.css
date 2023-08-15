@@ -1,0 +1,33 @@
+.blogContainer {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+}
+
+.postItem {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  text-decoration:none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+}
+.text{
+    text-decoration: none;
+    color: black;
+}

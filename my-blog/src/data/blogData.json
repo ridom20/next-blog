@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "My First Blog Post",
+      "content": "This is the content of the first blog post.",
+      "date": "2023-08-13"
+    },
+    {
+      "id": 2,
+      "title": "Another Blog Post",
+      "content": "Here's another blog post for you to enjoy.",
+      "date": "2023-08-14"
+    },
+    {
+      "id": 3,
+      "title": "Last Blog Post",
+      "content": "This is the final blog post in this example.",
+      "date": "2023-08-15"
+    }
+  ]
+  
