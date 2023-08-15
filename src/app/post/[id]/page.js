@@ -1,13 +1,11 @@
-'use client'
-import { usePathname } from 'next/navigation';
+
 import blogData from '../../data/blogData.json';
 import styles from "./post.module.css";
 
-const Post = () => {
-  const pathname = usePathname();
-  const id = parseInt(pathname.split('/').pop());
+const Post = ({params}) => {
+  const {id} = params;
 
-  const selectedPost = blogData.find((post)=>post.id === id);
+  const selectedPost = blogData.find((post)=>post.id === parseInt(id));
 
   return (
     <div className={styles.card}>

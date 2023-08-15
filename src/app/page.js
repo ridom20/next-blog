@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./page.module.css";
-const page = () => {
+const Home = () => {
   return (
     <div>
       <div className={styles.moduleContainer}>
@@ -12,4 +12,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Home;

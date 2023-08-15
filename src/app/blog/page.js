@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import blogData from "../data/blogData.json";
 import styles from "./blog.module.css"
-const page = () => {
+const Blog = () => {
   return (
     <div className={styles.blogContainer}> 
       <h1>Blog</h1>
@@ -17,4 +17,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Blog;
